@@ -16,6 +16,13 @@
   <link rel="stylesheet" href="./css/destino/destino-imagem.css">
   <link rel="stylesheet" href="./css/destino/destino-descricao.css">
   <link rel="stylesheet" href="./css/destino/destino-elementos.css">
+  <link rel="stylesheet" href="./css/sugestoes/sugestoes.css">
+  <link rel="stylesheet" href="./css/sugestoes/sugestoes-checkbox.css">
+  <link rel="stylesheet" href="./css/sugestoes/sugestoes-descricao.css">
+  <link rel="stylesheet" href="./css/sugestoes/sugestoes-padrao.css">
+  <link rel="stylesheet" href="./css/sugestoes/sugestoes-textarea.css">
+  <link rel="stylesheet" href="./css/sugestoes/sugestoes-titulo.css">
+  <link rel="stylesheet" href="./css/sugestoes/sugestoes-label.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
@@ -145,6 +152,33 @@
         </p>
       </div>     
     </section>
+    <section class="sugestoes">
+      <div class="sugestoes__formulario">
+        <h2 class="sugestoes__titulo">
+          Sugestões
+        </h2>
+        <p class="sugestoes__descricao">
+          Deixe suas sugestões sobre lugares para ir!
+        </p>
+  
+          <label for="cidade" class="sugestoes__label">Cidade</label>
+          <input type="text" id="cidade" class="sugestoes__padrao" required placeholder="Boston">
+          <label for="cidade" class="sugestoes__label">País</label>
+          <input type="text" id="cidade" class="sugestoes__padrao" required placeholder="Estados Unidos">
+          <label for="mensagem" class="sugestoes__label">Pontos Turísticos</label>
+          <textarea cols="70" rows="5" id="mensagem" class="sugestoes__textarea" required></textarea>
+          <label class="sugestoes__label"><input type="checkbox" class="sugestoes__checkbox">Destino Internacional</label>
+  
+         
+        </div>
+        <img src="./images/pexels-element-digital-1051075.jpg" class="destino__imagem">
+
+
+
+    </section>
+
+
+
 
 
   </main>
