@@ -1,6 +1,18 @@
 .sugestoes {
     display: flex;
     width: 100%;
-    height: 400px;
     background-color: #fdfdfd;
+}
+@media screen and (min-width: 0) {
+    .sugestoes {
+        flex-direction: column; 
+        height: 100%;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sugestoes {
+        flex-direction: row;
+        height: 450px;
+    }
 }

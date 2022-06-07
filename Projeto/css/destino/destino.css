@@ -4,3 +4,27 @@
     height: 400px;
     background-color: #fdfdfd;
 }
+@media screen and (min-width: 0) {
+    .destino__imagem__direita {
+        order: 1;
+    }
+    .destino__elementos__esquerda {
+        order: 2;
+    }
+    .destino {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .destino__imagem__direita {
+        order: 2;
+    }
+    .destino__elementos__esquerda {
+        order: 1;
+    }
+    .destino {
+        flex-direction: row;
+    }
+}

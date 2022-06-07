@@ -1,0 +1,16 @@
+.sugestoes__checkbox {
+    margin-bottom: 20px;
+}
+.sugestoes__submit {
+    width: 50%;
+    margin-left: 20px;
+    font-family: 'Tai Heritage Pro', sans-serif;
+    color: rgb(160, 160, 160);
+    font-weight: 800;
+    background-color: #fdfdfd;
+    border-color: rgb(0, 0, 0, 0.3);
+}
+
+.sugestoes__submit:active {
+    background-color: gray;
+}

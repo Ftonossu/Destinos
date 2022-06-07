@@ -2,5 +2,17 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    justify-content: center;
+}
+@media screen and (min-width: 0) {
+    .sugestoes__formulario {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sugestoes__formulario {
+        align-items: left;
+
+    }
 }

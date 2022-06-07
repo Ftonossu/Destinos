@@ -23,6 +23,8 @@
   <link rel="stylesheet" href="./css/sugestoes/sugestoes-textarea.css">
   <link rel="stylesheet" href="./css/sugestoes/sugestoes-titulo.css">
   <link rel="stylesheet" href="./css/sugestoes/sugestoes-label.css">
+  <link rel="stylesheet" href="./css/rodape/rodape.css">
+  <link rel="stylesheet" href="./css/rodape/rodape-email.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
@@ -65,15 +67,15 @@
 
     <section class="destino">
 
-      <div class="destino__elementos">
+      <div class="destino__elementos destino__elementos__esquerda">
         <h2 class="destino__titulo">Dubai</h2>
         <p class="destino__descricao">Dubai é uma cidade e um emirado dos Emirados Árabes Unidos conhecida
-           pelos shoppings de luxo, pela arquitetura ultramoderna e pela animada vida noturna. Burj Khalifa,
-            uma torre de 830 metros de altura, domina a linha do horizonte repleta de arranha-céus. Na base,
-             há a Fonte de Dubai, com jatos de água e luzes</p>
+          pelos shoppings de luxo, pela arquitetura ultramoderna e pela animada vida noturna. Burj Khalifa,
+          uma torre de 830 metros de altura, domina a linha do horizonte repleta de arranha-céus. Na base,
+          há a Fonte de Dubai, com jatos de água e luzes</p>
       </div>
 
-      <img src="./images/dubai.jpg" class="destino__imagem">
+      <img src="./images/dubai.jpg" class="destino__imagem destino__imagem__direita">
       
     </section>
 
@@ -93,7 +95,7 @@
     
     <section class="destino">
 
-      <div class="destino__elementos">
+      <div class="destino__elementos destino__elementos__esquerda">
         <h2 class="destino__titulo">Paris</h2>
         <p class="destino__descricao">Paris, a capital da França, é uma importante cidade europeia e
           um centro mundial de arte, moda, gastronomia e cultura. Sua paisagem urbana do século XIX é
@@ -103,7 +105,7 @@
         </p>
       </div> 
        
-      <img src="./images/paris.jpg" class="destino__imagem">   
+      <img src="./images/paris.jpg" class="destino__imagem destino__imagem__direita">   
 
     </section>
 
@@ -124,17 +126,17 @@
 
     <section class="destino">
 
-      <div class="destino__elementos">
+      <div class="destino__elementos destino__elementos__esquerda">
         <h2 class="destino__titulo">Toronto</h2>
         <p class="destino__descricao">Toronto, a capital da província de Ontário, é uma grande cidade 
           canadense localizada ao longo da costa noroeste do Lago Ontário. Ela é uma metrópole dinâmica 
           com um centro de arranha-céus imponentes, todos ofuscados pela famosa Torre CN. Toronto também
-           tem muitos espaços verdes, incluindo desde o oval Queen’s Park até o High Park, com 400 acres
-            de área, além de trilhas, instalações esportivas e um jardim zoológico.
+          tem muitos espaços verdes, incluindo desde o oval Queen’s Park até o High Park, com 400 acres
+          de área, além de trilhas, instalações esportivas e um jardim zoológico.
         </p>
       </div> 
 
-      <img src="./images/toronto.jpg" class="destino__imagem">    
+      <img src="./images/toronto.jpg" class="destino__imagem destino__imagem__direita">    
     </section>
 
     <section class="destino">
@@ -146,13 +148,13 @@
         <p class="destino__descricao">Cingapura, uma cidade-estado insular situada ao sul da Malásia, 
           é um centro financeiro global com clima tropical e população multicultural. Seu centro colonial 
           gira em torno do Padang, um campo de críquete da década de 1830 que, hoje, é ladeado por grandes
-           construções como a Prefeitura, com 18 colunas coríntias. Em Chinatown, que surgiu por volta de 
-           1820, fica o Buddha Tooth Relic Temple, em vermelho e dourado, que supostamente abriga um dos 
-           dentes de Buda.
+          construções como a Prefeitura, com 18 colunas coríntias. Em Chinatown, que surgiu por volta de 
+          1820, fica o Buddha Tooth Relic Temple, em vermelho e dourado, que supostamente abriga um dos 
+          dentes de Buda.
         </p>
       </div>     
     </section>
-    <section class="sugestoes">
+    <section class="sugestoes destino__elementos__esquerda">
       <div class="sugestoes__formulario">
         <h2 class="sugestoes__titulo">
           Sugestões
@@ -168,24 +170,20 @@
           <label for="mensagem" class="sugestoes__label">Pontos Turísticos</label>
           <textarea cols="70" rows="5" id="mensagem" class="sugestoes__textarea" required></textarea>
           <label class="sugestoes__label"><input type="checkbox" class="sugestoes__checkbox">Destino Internacional</label>
-  
+          <input type="submit" class="sugestoes__submit" value="Enviar Sugestão">
+
          
         </div>
-        <img src="./images/pexels-element-digital-1051075.jpg" class="destino__imagem">
+        <img src="./images/pexels-element-digital-1051075.jpg" class="destino__imagem destino__imagem__direita">
 
 
 
     </section>
-
-
-
-
-
   </main>
   
 
   <footer class="rodape">
-    
+    <p class="rodape__contato">E-mail para contato: exemplo@email.com</p>
   </footer>
 </body>
 </html>
