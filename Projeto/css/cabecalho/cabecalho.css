@@ -1,8 +1,17 @@
 .cabecalho {
     width: 100%;
     background: url(../../images/cabecalho.jpg) no-repeat center / cover;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+@media screen and (min-width: 0) {
+    .cabecalho{
+        height: 200px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cabecalho{
+        height: 400px;
+    }
 }

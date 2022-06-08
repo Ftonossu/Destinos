@@ -1,7 +1,18 @@
 .cabecalho__titulo {
-    padding-bottom: 200px;
+    
     font-family: pacifico, cursive;
-    font-size: 3.5rem;
     text-transform: uppercase;
     text-shadow: 10px 10px 20px #FDFDFD;
+}
+@media screen and (min-width: 0) {
+    .cabecalho__titulo{
+        font-size: 1.5rem;
+        padding-bottom: 100px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cabecalho__titulo{
+        font-size: 3.5rem;
+        padding-bottom: 200px;
+    }
 }
