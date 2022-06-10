@@ -1,8 +1,8 @@
 .sugestoes__descricao {
-    font-size: 15px;
-    font-family: 'Tai Heritage Pro', sans-serif;
-    font-weight: 600;
     color: rgb(160, 160, 160, 0.8);
+    font-family: 'Tai Heritage Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
 }

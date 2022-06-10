@@ -2,13 +2,13 @@
     margin-bottom: 20px;
 }
 .sugestoes__submit {
-    width: 200px;
-    margin-left: 20px;
-    font-family: 'Tai Heritage Pro', sans-serif;
-    color: rgb(160, 160, 160);
-    font-weight: 800;
     background-color: #fdfdfd;
     border-color: rgb(0, 0, 0, 0.3);
+    color: rgb(160, 160, 160);
+    font-family: 'Tai Heritage Pro', sans-serif;
+    font-weight: 800;
+    margin-left: 20px;
+    width: 200px;
 }
 
 .sugestoes__submit:active {

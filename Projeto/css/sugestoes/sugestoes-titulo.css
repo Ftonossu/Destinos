@@ -1,8 +1,8 @@
 .sugestoes__titulo {
-    font-size: 30px;
-    font-family: 'Tai Heritage Pro', sans-serif;
-    font-weight: 600;
     color: #3b444b;
+    font-family: 'Tai Heritage Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
 }

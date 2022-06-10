@@ -1,13 +1,13 @@
 .sugestoes {
     display: flex;
-    width: 100%;
     background-color: #fdfdfd;
+    width: 100%;
 }
 @media screen and (min-width: 0) {
     .sugestoes {
+        align-items: center;
         flex-direction: column; 
         height: 100%;
-        align-items: center;
     }
 }
 @media screen and (min-width: 768px) {

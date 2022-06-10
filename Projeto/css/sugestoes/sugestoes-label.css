@@ -5,8 +5,8 @@
 }
 @media screen and (min-width: 0) {
     .sugestoes__formulario {
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         margin-bottom: 20px;
         width: 80%;
     }

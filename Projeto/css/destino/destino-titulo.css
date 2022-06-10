@@ -1,7 +1,7 @@
 .destino__titulo {
+    color: #3b444b;
     font-family: 'Tai Heritage Pro', sans-serif;
     font-weight: 600;
-    color: #3b444b;
     margin-bottom: 20px;
 }
 @media screen and (min-width: 0) {
